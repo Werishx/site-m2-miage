@@ -2,12 +2,12 @@
 	<html lang="fr">
 	<head> 
 		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Master 2 MIAGE</title> 
 		<meta name="description" content="Site web du Master 2 MIAGE"> 
 		<meta name="author" content="Emilien"> 
 		<link rel="stylesheet" href="css/styles.css">
-		<!-- <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css"> -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/all.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 	</head>
 	<body> 
@@ -19,64 +19,74 @@
 			<nav class="menu">
 				<ul>
 					<li><a href="" class="active">Accueil</a></li>
-					<li><a href="" class="not-active">Espace entreprises</a></li>
-					<li><a href="" class="not-active">Espace presse</a></li>
-					<li><a href="" class="not-active">Contact</a></li>
+					<li><a href="" class="non-active">Espace entreprises</a></li>
+					<li><a href="" class="non-active">Espace presse</a></li>
+					<li><a href="" class="non-active">Contact</a></li>
 				</ul>
 			</nav>
 		</header>	
 		<main>
 			<section class="carousel">
-				<div>
-					<img class="img" src="img/carousel/image-0.jpg">
-					<div>Bouton gauche</div>
-					<div>Bouton droit</div>
-					<div>Légende</div>
+				<img class="img" src="img/carousel/image-0.jpg">
+				<div class="carousel-elements">					
+					<a href=""><div class="gauche"><i class="fa fa-angle-left fa-lg fleche"></i></div></a>
+					<div class="bloc-legende">
+						<div class="legende">
+							<h3>Booster votre avenir !</h3>
+							<p>Le Master 2 MIAGE vous permet de booster votre avenir.</p>
+							<div class="btns-ronds">
+								<a href=""><i class="fas fa-circle active"></i></a>
+								<a href=""><i class="fas fa-circle non-active" ></i></a>
+								<a href=""><i class="fas fa-circle non-active"></i></a>
+							</div>
+						</div>
+					</div>
+					<a href=""><div class="droite"><i class="fa fa-angle-right fa-lg fleche"></i></div></a>
 				</div>
 			</section>
 			<article>
 				<section class="bienvenue">
 					<div>
-						<h2>Bienvenue</h2>
+						<h1>Bienvenue !</h1>
 						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sodales dui et augue volutpat hendrerit. In iaculis laoreet sapien, tincidunt rhoncus enim volutpat non. Morbi ut semper purus. Duis porttitor lacinia tortor vitae auctor. Nullam ac luctus nulla, at vehicula est. Nunc id arcu justo. Sed condimentum metus in efficitur fermentum. Proin molestie, ante vitae consectetur consectetur, ante sapien ornare enim, quis ornare sapien augue eu est. </p>
 					</div>
 				</section>
 				<section class="blocs">
 					<div class="bloc">
 						<div class="card-content">
-							<h3><i class="fas fa-graduation-cap"></i>Intitulé du bloc </h3>
+							<h1><i class="fa fa-graduation-cap fa-lg"></i>&nbsp;Objectifs</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et leo ut leo dignissim aliquet. In aliquam blandit enim at tincidunt. Nam porttitor eu nulla ut aliquet. Nam sollicitudin, odio non aliquet pharetra, velit ipsum hendrerit nulla, vel ornare arcu justo non elit.</p>
 						</div>
-						<div class="item">
+						<div class="card-footer">
 							<hr/>
-							<a href="">
-								<div class="btn"><p>+ d'infos</p></div>
+							<a class="btn" href="">
+								<p>+ d'infos</p>
 							</a>
 						</div>
 					</div>
 
 					<div class="bloc">
 						<div class="card-content">
-							<h3><i class="fas fa-compass"></i>Intitulé du bloc </h3>
+							<h1><i class="fa fa-compass fa-lg"></i>&nbsp;Admission</h1>
 							<p> Nam porttitor eu nulla ut aliquet. Nam sollicitudin, odio non aliquet pharetra, velit ipsum hendrerit nulla, vel ornare arcu justo non</p>
 						</div>
 						<div class="card-footer">
 							<hr/>
-							<a href="">
-								<div class="btn"><p>+ d'infos</p></div>
+							<a class="btn" href="">
+								<p>+ d'infos</p>
 							</a>
 						</div>
 					</div>
 
 					<div class="bloc">
 						<div class="card-content">
-							<h3><i class="fas fa-calendar-alt"></i>Intitulé du bloc 3 </h3></span>
+							<h1><i class="fa fa-calendar-alt fa-lg"></i>&nbsp;Organisation</h1></span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et leo ut leo dignissim aliquet. In aliquam blandit enim at tincidunt. Nam porttitor eu nulla ut aliquet. Nam sollicitudin, odio non aliquet pharetra, velit ipsum hendrerit nulla, vel ornare arcu justo non elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et leo ut leo dignissim aliquet. In aliquam blandit enim at tincidunt. Nam porttitor eu nulla ut aliquet. Nam sollicitudin, odio non aliquet pharetra, velit ipsum hendrerit nulla, vel ornare arcu justo non elit.</p>
 						</div>
-						<div class="item">
+						<div class="card-footer">
 							<hr/>
-							<a href="">
-								<div class="btn"><p>+ d'infos</p></div>
+							<a class="btn" href="">
+								<p>+ d'infos</p>
 							</a>
 						</div>
 					</div>
